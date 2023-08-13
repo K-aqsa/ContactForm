@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@importurl('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: aquamarine
+}
+
+.cont-section{
+    background-image: url(contact.jpg);
+    background-attachment: local;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.cont-section p{
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.main{
+    height: auto;
+    width: 600px;
+    margin:100px auto;
+}
+s
+.form{
+    margin-bottom: 10px;
+}
+
+.form input, .form textarea{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.form input[type="submit"]{
+    background-color: #ff7720;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form span{
+    color: red;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
