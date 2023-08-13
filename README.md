@@ -18,10 +18,10 @@
 
 1. Install XAMPP.
 
-2. Open XAMPP Control panal and start [apache] and [mysql] .
+2. Open XAMPP Control panel and start [apache] and [mysql] .
 
-3. Download project from github(https://github.com/K-aqsa/ContactForm.git)  
-   
+3. Download project from github(https://github.com/K-aqsa/ContactForm.git). Download it as a zip file.
+    
 4. Extract files in C:\\xampp\htdocs\.
 
 5. Open link localhost/phpmyadmin
@@ -32,9 +32,9 @@
 
 8. After creating database name click on import.
 
-9. Browse the file in directory[ContactForm/contact_form.sql].
+9. Browse the file in directory[ContactForm-main/contact_form.sql].
 
-10. After importing successfully, Open any browser and type http://localhost/ContactForm/contact.php
+10. After importing successfully, Open any browser and type http://localhost/ContactForm-main/contact.php
 
 11. When all the fields are validated correctly then the data will be saved in the database and the mail will be sent.
 
