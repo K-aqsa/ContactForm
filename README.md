@@ -3,34 +3,40 @@
 <ul>
 	<li><b>HTML</b></li>
 	<li><b>PHP</b></li>
+	<li><b>MySQL</b></li>
 	<li><b>CSS</b></li
 </ul>
+<h2>Files</h2>
+<b>contact.php</b>: It is the main file with html form and php form validation.<br>
+<b>dbconfig.php</b>: This file contains database connection.<br>
+<b>contact_form.sql</b>: This sql file contains the details of creation of table in the database.<br>
+<b>style1.css</b>: Contains styling of this project.
 
+<h2>Database Name: database</h2>
+<h2>Table Name: contact_form 
 <h2>Installation</h2>
 
 1. Install XAMPP.
 
 2. Open XAMPP Control panal and start [apache] and [mysql] .
 
-3. Download project from github(https://github.com/PuneethReddyHC/online-shopping-system-with-advanced-admin-page.git)  
+3. Download project from github(https://github.com/K-aqsa/ContactForm.git)  
    
-4. extract files in C:\\xampp\htdocs\.
+4. Extract files in C:\\xampp\htdocs\.
 
-5. open link localhost/phpmyadmin
+5. Open link localhost/phpmyadmin
 
-6. click on new at side navbar.
+6. Click on new at side navbar.
 
-7. give a database name as (database) hit on create button.
+7. Give a database name as (database) hit on create button.
 
-8. after creating database name click on import.
+8. After creating database name click on import.
 
-9. browse the file in directory[online-shopping-system-with-advanced-admin-page/database/onlineshop.sql].
+9. Browse the file in directory[ContactForm/contact_form.sql].
 
-10. after importing successfully.
+10. After importing successfully, Open any browser and type http://localhost/ContactForm/contact.php
 
-11. open any browser and type http://localhost/online-shopping-system-with-advanced-admin-page-master.
+11. When all the fields are validated correctly then the data will be saved in the database and the mail will be sent.
 
-12. When all the fields are validated correctly then the data will be saved in the database and the mail will be sent.
-
-13. If email is sent succesfully, then it will give 'Send Successfully' message.
+12. If email is sent succesfully, then it will give 'Send Successfully' message.
 
